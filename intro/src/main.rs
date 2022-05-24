@@ -55,7 +55,7 @@ enum ColorWeb {
 
 enum Ip {
     Ipv4(u8, u8, u8, u8),
-    Upv6(u8)
+    Ipv6(u8)
 }
 #[derive(Debug)]
 struct Rectangle{
